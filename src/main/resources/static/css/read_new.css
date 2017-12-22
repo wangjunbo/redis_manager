@@ -1,0 +1,682 @@
+@charset "utf-8"; 
+
+body {
+	background-color: #504f4d
+}
+
+.simple_nav {
+	line-height: 30px;
+	height: 30px
+}
+
+.all {
+	width: 100%;
+	background-color: #f2f2f2;
+	overflow: hidden
+}
+
+.Path-nav {
+	width: 980px;
+	margin: 0 auto;
+	height: 42px;
+	text-align: left;
+	line-height: 42px
+}
+
+.Path-nav span {
+	float: left
+}
+
+.Path-nav p {
+	float: right;
+	text-align: right
+}
+
+.main_body {
+	width: 759px;
+	border-right: 1px solid #686766;
+	margin: 25px auto 50px auto;
+	position: relative;
+	background-color: #fff
+}
+
+.bookname {
+	padding: 20px 65px 15px 65px;
+	border-bottom: 1px solid #ddd
+}
+
+.bookname h1 {
+	font-size: 22px;
+	font: bold 14px/32px microsoft yahei, 黑体;
+	height: 32px;
+	color: #999
+}
+
+.bookname h2 {
+	font: bold 20px/32px microsoft yahei, 黑体;
+	text-align: left;
+	color: #252525
+}
+
+.readtime {
+	float: right;
+	font: normal 12px/32px arial;
+	color: #999
+}
+
+.read_body {
+	width: 760px;
+	overflow: hidden;
+	margin: 0 auto
+}
+
+.readtext {
+	padding: 20px 65px;
+	font-size: 14px;
+	color: #252525
+}
+
+.readtext p {
+	text-indent: 2em;
+	padding: .8em 0;
+	line-height: 2.4em;
+	word-wrap: break-word;
+	text-align: justify
+}
+
+.readtext .text a,.readcon .text a {
+	padding: .5em
+}
+
+.button {
+	text-align: center;
+	padding-top: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	font-size: 14px;
+	color: #025b81;
+	zoom: 1
+}
+
+.button span.pre_next {
+	height: 34px;
+	padding-bottom: 0;
+	font-size: 12px;
+	line-height: 34px;
+	display: inline-block;
+	color: #999
+}
+
+span .bton,span .bton_intro {
+	background-color: #324f4f;
+	width: 80px;
+	height: 34px;
+	line-height: 34px;
+	border: 0;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	margin: 0 5px
+}
+
+span .bton_intro {
+	background-color: #8a9893;
+	font-weight: normal
+}
+
+.read_act {
+	position: fixed;
+	top: 194px;
+	_position: absolute;
+	_top: expression(documentElement.scrollTop +194 + "px");
+	left: 50%;
+	margin-left: 379px;
+	width: 75px
+}
+
+.read_menu a {
+	width: 65px;
+	height: 50px;
+	background: url(../images/read_bg.png) no-repeat transparent;
+	display: block;
+	margin-bottom: 1px;
+	cursor: pointer
+}
+
+.read_menu a:hover {
+	background-color: #8a9893;
+	width: 75px
+}
+
+.read_menu .page-up {
+	background-position: 0 0;
+	background-color: #7d7d7d
+}
+
+.read_menu .page-up:hover {
+	background-position: -75px 0
+}
+
+.read_menu .page-down {
+	background-position: 0 -52px;
+	background-color: #7d7d7d
+}
+
+.read_menu .page-down:hover {
+	background-position: -75px -52px
+}
+
+.read_menu .page-list-out {
+	background-position: 0 -104px;
+	background-color: #7d7d7d
+}
+
+.read_menu .page-list-out:hover {
+	background-position: -75px -104px
+}
+
+.read_menu .page-set {
+	background-position: 0 -191px;
+	margin-top: 36px
+}
+
+.read_menu .page-set:hover {
+	background-position: -75px -191px
+}
+
+.read_menu .say-good {
+	background-position: 0 -241px
+}
+
+.read_menu .say-good:hover {
+	background-position: -75px -241px
+}
+
+.read_menu .read_comment {
+	background-position: 0 -291px
+}
+
+.read_menu .read_comment:hover {
+	background-position: -75px -291px
+}
+
+.read_menu .heart {
+	background-position: 0 -341px
+}
+
+.read_menu .heart:hover {
+	background-position: -75px -341px
+}
+
+.read_menu .heart_act {
+	background-position: 0 -391px
+}
+
+.read_menu .heart_act:hover {
+	background-position: -75px -391px
+}
+
+.read_tips em {
+	width: 11px;
+	height: 6px;
+	display: block;
+	position: absolute;
+	background: url(../images/intro_bg.png) no-repeat 0 -680px;
+	z-index: 999;
+	margin-top: -15px;
+	margin-left: 8px;
+	*margin-top: -19px
+}
+
+.read_tips {
+	width: 160px;
+	height: 40px;
+	line-height: 20px;
+	padding: 10px;
+	text-align: left;
+	color: #666;
+	position: absolute;
+	display: block;
+	background-color: #f5ebd0;
+	margin-left: 10px;
+	margin-top: 40px;
+	cursor: text
+}
+
+.read_tips .close {
+	width: 24px;
+	height: 24px;
+	display: block;
+	position: absolute;
+	background: url(../images/intro_bg.png) 15px -695px;
+	cursor: pointer;
+	right: 0;
+	top: 0
+}
+
+.read_act .pop_layer {
+	width: 260px;
+	position: absolute;
+	right: 75px;
+	_right: 74px;
+	background-color: #8a9893;
+	top: 0;
+	overflow: hidden;
+	padding: 40px 0
+}
+
+.chapterlist {
+	width: 260px;
+	overflow: hidden
+}
+
+.read_list {
+	position: relative;
+	height: 460px;
+	overflow: hidden
+}
+
+.scroll_area {
+	position: relative
+}
+
+.scroll_area li {
+	line-height: 26px;
+	height: 26px;
+	padding-left: 30px
+}
+
+.scroll_area li.act {
+	background-color: #6b7571
+}
+
+.scroll_area li a,.scroll_area li a:hover {
+	font-size: 14px;
+	color: #fff
+}
+
+.scrollbar {
+	width: 6px;
+	background-color: #6b7571;
+	position: absolute;
+	right: 0;
+	top: 0
+}
+
+.scroll_btn {
+	position: absolute;
+	left: -10px;
+	top: 100px;
+	width: 20px;
+	height: 145px;
+	background: transparent;
+	cursor: pointer;
+	z-index: 999px
+}
+
+.scroll_btn p {
+	width: 10px;
+	float: right;
+	display: block;
+	background-color: #fff
+}
+
+.btn {
+	display: block;
+	width: 100%;
+	height: 100%
+}
+
+.read_act .read_set {
+	width: 260px;
+	height: 116px;
+	position: absolute;
+	right: 75px;
+	_right: 74px;
+	background-color: #8a9893;
+	top: 188px;
+	overflow: hidden;
+	z-index: 999;
+	background: #8a9792 url(../images/read_bg.png) no-repeat 0 -450px
+}
+
+.readsize,.readface {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 70px
+}
+
+.readsize span,.readface span {
+	width: 45px;
+	display: block;
+	text-align: center;
+	float: left;
+	line-height: 20px
+}
+
+.readsize span b,.readface span b {
+	height: 22px;
+	padding: 0 5px;
+	border: 1px solid #8a9792;
+	display: inline-block;
+	font: normal 14px/22px microsoft yahei, arial;
+	color: #FFF;
+	cursor: pointer
+}
+
+.readface span b {
+	width: 16px;
+	height: 16px;
+	padding: 3px;
+	border: 1px solid #8a9792
+}
+
+.readsize span b.act,.readface span b.act {
+	border: 1px solid #c5ccc9;
+	font-weight: bold
+}
+
+.readface span b a {
+	width: 16px;
+	height: 16px;
+	display: block
+}
+
+.readface .color1 {
+	background-color: #f6efdb
+}
+
+.readface .color2 {
+	background-color: #edf3ef
+}
+
+.readface .color3 {
+	background-color: #fff
+}
+
+.readface .color4 {
+	background-color: #504f4d
+}
+
+.readface {
+	margin-top: 72px
+}
+
+.other-say,.readtext .other-say p {
+	font-size: 12px;
+	line-height: 2em;
+	color: #999
+}
+
+.other-say {
+	padding: 20px;
+	background-color: #f6f6f6;
+	margin-top: 10px
+}
+
+.color_set {
+	color: #3a676c
+}
+
+.warm .main_body {
+	background-color: #f6efdb
+}
+
+.warm .other-say {
+	background-color: #ebe5d2
+}
+
+.gray .main_body {
+	background-color: #edf3ef
+}
+
+.gray .other-say {
+	background-color: #e5ebe7
+}
+
+.white .main_body {
+	background-color: #fff
+}
+
+.black .main_body {
+	background-color: #504f4d;
+	border-right: 1px solid #4a4947
+}
+
+.black .bookname {
+	border-bottom: 1px solid #504f4d
+}
+
+.black .bookname h2,.black .readtext {
+	color: #cbcaca
+}
+
+.black span .bton,.black span .bton_intro {
+	background-color: #737271
+}
+
+.black span .bton_intro {
+	background-color: #5d5c5a
+}
+
+.black .read_menu a {
+	background: url(../images/read_night.png)
+}
+
+.black .read_menu .page-up {
+	background-position: 0 0
+}
+
+.black .read_menu .page-up:hover {
+	background-position: -75px 0
+}
+
+.black .read_menu .page-down {
+	background-position: 0 -52px
+}
+
+.black .read_menu .page-down:hover {
+	background-position: -75px -52px
+}
+
+.black .read_menu .page-list-out {
+	background-position: 0 -104px
+}
+
+.black .read_menu .page-list-out:hover {
+	background-position: -75px -104px
+}
+
+.black .read_menu .page-set {
+	background-position: 0 -191px
+}
+
+.black .read_menu .page-set:hover {
+	background-position: -75px -191px
+}
+
+.black .read_menu .say-good {
+	background-position: 0 -241px
+}
+
+.black .read_menu .say-good:hover {
+	background-position: -75px -241px
+}
+
+.black .read_menu .read_comment {
+	background-position: 0 -291px
+}
+
+.black .read_menu .read_comment:hover {
+	background-position: -75px -291px
+}
+
+.black .read_menu .heart {
+	background-position: 0 -341px
+}
+
+.black .read_menu .heart:hover {
+	background-position: -75px -341px
+}
+
+.black .read_menu .heart_act {
+	background-position: 0 -391px
+}
+
+.black .read_menu .heart_act:hover {
+	background-position: -75px -391px
+}
+
+.black .read_act .pop_layer {
+	background-color: #737271
+}
+
+.black .scroll_area li.act {
+	background-color: #5d5c5a
+}
+
+.black .scrollbar {
+	background-color: #898888
+}
+
+.black .scroll_btn p {
+	background-color: #cbcbcb
+}
+
+.black .read_act .read_set {
+	background-color: #8a9893;
+	top: 180px;
+	overflow: hidden;
+	z-index: 999;
+	background: #737271 url(../images/read_night.png) no-repeat 0 -450px
+}
+
+.black .readsize span b,.black .readface span b {
+	border: 1px solid #737271
+}
+
+.black .readsize span b.act,.black .readface span b.act {
+	border: 1px solid #c5ccc9;
+	font-weight: bold
+}
+
+.black .other-say,.black .readtext .other-say p {
+	color: #999
+}
+
+.black .other-say {
+	background-color: #434241
+}
+
+.black .other-say span,.black .color_set {
+	color: #cbcaca
+}
+
+.tcopyright {
+	clear: both;
+	color: #333;
+	font-size: 12px;
+	line-height: 28px;
+	margin: 50px auto;
+	overflow: hidden;
+	padding: 8px 0;
+	text-align: center;
+	width: 980px
+}
+
+.tcopyright .en {
+	font-family: Arial
+}
+
+.readform {
+	width: 592px;
+	height: 290px;
+	border: 1px solid #ccc;
+	padding: 20px;
+	padding-top: 10px;
+	overflow: hidden;
+	position: absolute;
+	left: 50%;
+	margin-left: -316px;
+	background-color: #fff;
+	z-index: 99999;
+	top: 0
+}
+
+.readform h3 {
+	font: normal 16px/32px microsoft yahei, 黑体;
+	padding-bottom: 10px
+}
+
+.textarea-sub {
+	line-height: 32px;
+	text-align: right;
+	_padding: 10px 0
+}
+
+.read_form {
+	position: absolute;
+	left: 50%;
+	width: 260px;
+	padding: 0 20px;
+	height: 160px;
+	margin-left: -170px;
+	top: 0;
+	background-color: #fff;
+	display: block;
+	z-index: 99999;
+	border: 1px solid #ccc;
+	text-align: left
+}
+
+.textarea_sub {
+	padding-top: 30px;
+	position: relative;
+	text-align: right
+}
+
+.textarea_sub p {
+	text-align: left;
+	padding-bottom: 20px;
+	font: normal 16px/28px microsoft yahei, arial
+}
+
+.textarea-normal {
+	width: 572px;
+	height: 176px;
+	padding: 10px;
+	border: 0;
+	line-height: 22px;
+	margin: 0 auto;
+	background-color: #f4f3f3
+}
+
+a.comment_btn,a.comment_btn:hover {
+	width: 93px;
+	height: 32px;
+	display: inline-block;
+	background-color: #324f4f;
+	color: #fff;
+	font: normal 16px/32px microsoft yahei, 黑体;
+	text-align: center;
+	margin-left: 10px
+}
+
+.rednum {
+	font: bold 14px/60px arial;
+	color: #9e3a3a;
+	margin: 0 2px
+}
+
+.close {
+	width: 24px;
+	height: 24px;
+	display: block;
+	position: absolute;
+	background: url(../images/close.png);
+	cursor: pointer;
+	top: 10px;
+	right: 10px
+}

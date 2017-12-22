@@ -1,0 +1,158 @@
+@CHARSET "UTF-8";
+*{
+   font-size: 15px;
+   text-decoration: none;
+	}
+body{
+  background-image:url(../../img/login/bg2.jpg);
+  background-attachment:fixed;
+  background-position: center;
+}
+a{
+	color: black;
+}
+#wenhou{
+   position: absolute;
+   margin-top:200px;
+   left:20%;
+}
+#wenhou1{
+   position: absolute;
+   margin-top:150px;
+   left:20%;
+}
+form{
+   position: relative;
+   margin-left:60%;
+   top:100px;
+}
+input.text{
+   height: 26px;
+   width:230 ;
+}
+.login{
+	background-image: url(../../img/login/qzonelogin.png);
+	height: 40px;
+    width:120;
+}
+.signup{
+	background-image: url(../../img/login/signup.png);
+	height: 40px;
+    width:120;
+}
+.frameDiv{
+	7border: 1px solid gray;
+	width: 1000px;
+	text-align:left;
+}
+.addressDiv{
+	7border: 1px solid gray;
+	width: 1000px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.favoritesDiv{
+	border: 1px solid gray;
+	width: 1000px;
+	margin-bottom: 10px;
+	background-color:white;
+}
+.favoritesTitleDiv{
+	border: 1px solid gray;
+	width: 1000px;
+	padding-bottom: 10px;
+	background-image: url(../../img/login/favoritesBg.png);
+	background-repeat: repeat-x;
+}
+.favoritesContentDiv table{
+	border-collapse: collapse;
+}
+.favoritesContentDiv table tr td{
+	border: 1px solid gray;
+	width:200px;
+	height:100px;
+}
+.recommendDiv{
+	border: 1px solid gray;
+	width: 1000px;
+	background-color:white;
+}
+.recommendTitleDiv{
+	border: 1px solid gray;
+	width: 1000px;
+	padding-bottom: 10px;
+	background-image: url(../../img/login/favoritesBg.png);
+	background-repeat: repeat-x;
+}
+.recommendContentDiv table{
+	border-collapse: collapse;
+}
+.recommendContentDiv table tr td{
+	border: 1px solid gray;
+	width:200px;
+	height:100px;
+}
+.helpDiv{
+	margin:0px;
+	padding:0px;
+	width: 1000px;
+	margin-bottom: 10px;
+}
+.helpTitleDiv{
+	width: 1000px;
+	padding-bottom: 10px;
+}
+.helpContentDiv table table{
+	border-collapse: collapse;
+}
+.helpContentDiv table tr td {
+	height:100px;
+	width: 1000px;
+}
+.helpContentDiv table tr td img{
+	margin: 0px 21px 0px 21px;
+}
+
+.moreDiv{
+	border: 1px solid gray;
+	width: 1000px;
+	margin-bottom: 10px;
+	text-align: left;
+	background-color:white;
+}
+.moreTitleDiv{
+	border: 1px solid gray;
+	width: 1000px;
+	padding-bottom: 10px;
+	background-image: url(../../img/login/favoritesBg.png);
+	background-repeat: repeat-x;
+}
+.moreContentDiv table{
+	border-collapse: collapse;
+}
+.moreContentDiv table tr td{
+	border: 1px solid gray;
+	width:200px;
+	height:100px;
+}
+
+table.single{
+   border: 0px solid green;
+}
+
+table.single tr td{
+   border: 0px solid green;
+   height:33px;
+}
+
+table.single td.logo{
+   padding-top:8px;
+   text-align:right;
+   width:30%;   
+}
+.alignBotton{
+	vertical-align:bottom;
+}
+.alignTop{
+	vertical-align:middle;
+}
