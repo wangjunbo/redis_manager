@@ -1,4 +1,4 @@
-`redis_manager` can be used as single node pattern or as cluter pattern. It's very convenient to use.
+`redis_manager` can be used as single node pattern or as cluster pattern. It's very convenient to use.
 
 `redis_manager` gives your application a redis web administration interface that allows you to easily manipulate the most commonly used data types for redis (strings, hashes, lists, sets, sorted sets).
 
