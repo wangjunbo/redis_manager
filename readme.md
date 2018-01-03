@@ -6,9 +6,9 @@
 
 configuration file is `application.properties`
 
-## download.   
-   You can [download](http://www.hohode.com/resource/redis/redis_manager.zip) it and run it immediately.  
-   
+## download   
+   You can [download](http://www.hohode.com/resource/redis/redis_manager.zip) it and run it immediately. You can
+   also  [download](https://goo.gl/xBhKTX) it here.
    
 ## screenshot
 <p align="center"><img src="http://www.hohode.com/resource/redis/rm1.png" alt="redis-manager"></p>
