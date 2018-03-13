@@ -7,11 +7,10 @@
 configuration file is `application.properties`
 
 ## download   
-   You can [download](http://115.28.131.236/resource/redis/redis_manager.zip) it and run it immediately. You can
-   also  [download](https://goo.gl/dhKjr4) it here.
+   You can [download](http://www.googleapi.cc/static/other/redis_manager.zip) it and run it immediately. 
    
 ## screenshot
-<p align="center"><img src="http://115.28.131.236/resource/redis/rm1.png" alt="redis-manager"></p>
+<p align="center"><img src="http://www.googleapi.cc/static/img/rm1.png" alt="redis-manager"></p>
 
 ## cluster pattern
 ```
